@@ -1,12 +1,12 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <WindowsSDK_ExecutablePath_arm>$(WindowsSdkDir)bin\arm;</WindowsSDK_ExecutablePath_arm>
+    <WindowsSDK_ExecutablePath_arm>$(WindowsSdkDir)bin\10.0.15063.0\arm;</WindowsSDK_ExecutablePath_arm>
     <DotNetSdk_LibraryPath_arm Condition="'$(DotNetSdk_LibraryPath_arm)' == ''">$(DotNetSdkRoot)lib\um\arm</DotNetSdk_LibraryPath_arm>
-    <WindowsSDK_LibraryPath_arm>$(WindowsSdkDir)lib\10.0.14393.0\um\arm;$(DotNetSdk_LibraryPath_arm);</WindowsSDK_LibraryPath_arm>
+    <WindowsSDK_LibraryPath_arm>$(WindowsSdkDir)lib\10.0.15063.0\um\arm;$(DotNetSdk_LibraryPath_arm);</WindowsSDK_LibraryPath_arm>
     
-    <WindowsSDK_ExecutablePath_arm64>$(WindowsSdkDir)bin\arm64;</WindowsSDK_ExecutablePath_arm64>
+    <WindowsSDK_ExecutablePath_arm64>$(WindowsSdkDir)bin\10.0.15063.0\arm64;</WindowsSDK_ExecutablePath_arm64>
     <DotNetSdk_LibraryPath_arm64 Condition="'$(DotNetSdk_LibraryPath_arm64)' == ''">$(DotNetSdkRoot)lib\um\arm64</DotNetSdk_LibraryPath_arm64>
-    <WindowsSDK_LibraryPath_arm64>$(WindowsSdkDir)lib\10.0.14393.0\um\arm64;$(DotNetSdk_LibraryPath_arm64);</WindowsSDK_LibraryPath_arm64>
+    <WindowsSDK_LibraryPath_arm64>$(WindowsSdkDir)lib\10.0.15063.0\um\arm64;$(DotNetSdk_LibraryPath_arm64);</WindowsSDK_LibraryPath_arm64>
   </PropertyGroup>
 </Project>
 

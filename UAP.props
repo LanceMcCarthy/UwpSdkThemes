@@ -9,9 +9,9 @@
   <PropertyGroup>
     <!-- Properties to be appended to the IncludePath should not be treated as paths, hence should not end in a trailing slash -->
     <!-- These properties can be identified by the trailing _IncludePath in their names -->
-    <UM_IncludePath Condition="'$(UM_IncludePath)' == ''">$(WindowsSdkDir)Include\10.0.10240.0\um</UM_IncludePath>
-    <KIT_SHARED_IncludePath Condition="'$(KIT_SHARED_IncludePath)' == ''">$(WindowsSdkDir)Include\10.0.10240.0\shared</KIT_SHARED_IncludePath>
-    <WinRT_IncludePath Condition="'$(WinRT_IncludePath)' == ''">$(WindowsSdkDir)Include\10.0.10240.0\winrt</WinRT_IncludePath>
+    <UM_IncludePath Condition="'$(UM_IncludePath)' == ''">$(WindowsSdkDir)Include\10.0.10586.0\um</UM_IncludePath>
+    <KIT_SHARED_IncludePath Condition="'$(KIT_SHARED_IncludePath)' == ''">$(WindowsSdkDir)Include\10.0.10586.0\shared</KIT_SHARED_IncludePath>
+    <WinRT_IncludePath Condition="'$(WinRT_IncludePath)' == ''">$(WindowsSdkDir)Include\10.0.10586.0\winrt</WinRT_IncludePath>
     
     <DotNetSdk_IncludePath Condition="'$(DotNetSdk_IncludePath)' == ''">$(DotNetSdkRoot)Include\um</DotNetSdk_IncludePath>
     <DotNetSdk_LibraryPath Condition="'$(DotNetSdk_LibraryPath)' == ''">$(DotNetSdkRoot)lib\um</DotNetSdk_LibraryPath>
@@ -23,14 +23,14 @@
     <WindowsSDK_MetadataPath>$(WindowsSdkDir)References</WindowsSDK_MetadataPath>
     <WindowsSDK_ExecutablePath_x86>$(WindowsSdkDir)bin\x86;</WindowsSDK_ExecutablePath_x86>
     <WindowsSDK_ExecutablePath_x64>$(WindowsSdkDir)bin\x64;</WindowsSDK_ExecutablePath_x64>
-    <WindowsSDK_LibraryPath>$(WindowsSdkDir)lib\10.0.10240.0\um</WindowsSDK_LibraryPath>
-    <WindowsSDK_LibraryPath_x86>$(WindowsSdkDir)lib\10.0.10240.0\um\x86;$(DotNetSdk_LibraryPath_x86);</WindowsSDK_LibraryPath_x86>
-    <WindowsSDK_LibraryPath_x64>$(WindowsSdkDir)lib\10.0.10240.0\um\x64;$(DotNetSdk_LibraryPath_x64);</WindowsSDK_LibraryPath_x64>
+    <WindowsSDK_LibraryPath>$(WindowsSdkDir)lib\10.0.10586.0\um</WindowsSDK_LibraryPath>
+    <WindowsSDK_LibraryPath_x86>$(WindowsSdkDir)lib\10.0.10586.0\um\x86;$(DotNetSdk_LibraryPath_x86);</WindowsSDK_LibraryPath_x86>
+    <WindowsSDK_LibraryPath_x64>$(WindowsSdkDir)lib\10.0.10586.0\um\x64;$(DotNetSdk_LibraryPath_x64);</WindowsSDK_LibraryPath_x64>
     <WindowsSDK_PlatformPath>$(WindowsSdkDir)Platforms\UAP;</WindowsSDK_PlatformPath>
   </PropertyGroup>
   
-  <Import Condition="Exists('$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10240.0\UAP.desktop.arm.props')" Project="$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10240.0\UAP.desktop.arm.props"/>
+  <Import Condition="Exists('$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10586.0\UAP.desktop.arm.props')" Project="$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10586.0\UAP.desktop.arm.props"/>
 
-  <Import Condition="Exists('$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10240.0\UAP.arm.props')" Project="$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10240.0\UAP.arm.props"/>
+  <Import Condition="Exists('$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10586.0\UAP.arm.props')" Project="$(WindowsSdkDir)\DesignTime\CommonConfiguration\Neutral\UAP\10.0.10586.0\UAP.arm.props"/>
 </Project>
 
